@@ -1,0 +1,7 @@
+.sidebar-text {}
+
+#link:hover {
+    text-decoration: underline;
+}
+
+.linked:active {}

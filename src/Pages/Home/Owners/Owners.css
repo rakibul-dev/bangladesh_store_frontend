@@ -1,0 +1,39 @@
+.owner-section {
+    background-image: url("../../../images/bg-3.jpg");
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    /* background-color: #f8ece4; */
+    background-color: pink;
+    background-blend-mode: overlay;
+}
+
+.owner-container {
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.owner {
+    width: 45%;
+    height: 250px;
+    align-items: center;
+    background-color: white;
+}
+
+.owner-img {
+
+    width: 137px;
+    height: 160px;
+    margin: auto;
+    margin-top: -60px;
+    border: 10px solid lightpink;
+
+}
+
+
+@media only screen and (max-width: 600px) {}

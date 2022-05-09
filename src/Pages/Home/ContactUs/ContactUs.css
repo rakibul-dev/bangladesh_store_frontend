@@ -1,0 +1,25 @@
+.contact-us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+    margin-left: 200px;
+    
+  
+  
+}
+.contact-item-1{
+width: 45%;
+
+}
+.contact-item-1{
+text-align: start;
+width: 45%;
+
+
+}
+@media only screen and (max-width: 600px) {
+   .contact-us{
+    margin-left: 20px;
+   }
+  }

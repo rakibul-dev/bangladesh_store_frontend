@@ -1,0 +1,30 @@
+.box {
+  box-shadow: 5px 5px 5px 4px rgb(194, 187, 187);
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+li {
+  cursor: pointer;
+}
+
+.catagory-container {
+  height: 800px;
+
+  overflow-y: scroll;
+}
+
+.catagory-text {
+  color: rgb(36, 30, 30)
+}
+
+.catagory-text:hover {
+  color: palevioletred;
+}
+
+.pagination {
+  background-color: "green";
+}

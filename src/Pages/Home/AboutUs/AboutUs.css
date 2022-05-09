@@ -1,0 +1,53 @@
+.about-section {
+    display: flex;
+    margin-top: 100px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.about-model-background {
+    height: 450px;
+    background-image: url('../../../images/background2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.about-model {
+    width: 85%;
+    height: 500 px;
+
+
+}
+
+.about-model img {
+    width: 640px;
+    height: auto;
+    margin-top: 80px;
+    margin-left: -20px;
+    transition: transform .94s ease;
+}
+
+.about-model img:hover {
+    transform: scale(1.1);
+    transition: .94s ease;
+
+
+}
+
+.about-text {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .about-section {
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+}
